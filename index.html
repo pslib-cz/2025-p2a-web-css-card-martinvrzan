@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSSCard-Marketer</title>
-    <link rel="icon" type="image/vnd.microsoft.icon" href="https://www.prumyslovkaliberec.cz/favicon.ico">
-    <link rel="stylesheet" href="./style/main.css">
-</head>
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="https://www.prumyslovkaliberec.cz/favicon.ico"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
 
-<body>
+  <body>
     <main class="main">
-        <figure class="card card--marketer">
-            <div class="card_header">
-                <p class="card_title">Marketer+</p>
-                <p><strong class="card_strong">Pokročilé funkce</strong> vhodné zejména pro <br> e-shopy. E-mailing
-                    založený na datech.
-                </p>
-            </div>
-            <div class="card_body">
-                <p><strong class="card_kč">200 kč</strong> měsíčně</p>
-                <p>nebo 300 Kč při <strong class="card_platba">měsíční platbě</strong></p>
-                <p><a class="card_button" href="#">Vyzkoušejte zdarma</a></p>
-            </div>
-            <div class="card_footer">
-                <ul class="card_list">
-                    <li class="card_item1"><strong>Neomezené množství e-mailů</strong></li>
-                    <li class="card_item2">Dragdorp editor na tvorbu šablon</li>
-                    <li class="card_item3">170+ designových šablon</li>
-                    <li class="card_item4">AI generování předměru a úpravy textů</li>
-                    <li class="card_item5">Integrace s e-shopy</li>
-                    <li class="card_item6">Slevové kupóny</li>
-                    <li class="card_item7">Automatizace podle chování zákazníka</li>
-                </ul>
-            </div>
-        </figure>
+      <figure class="card card--marketer">
+        <div class="card__header">
+          <p class="card__title">Marketer+</p>
+          <p class="card__subtitle">
+            <strong class="card__strong">Pokročilé funkce</strong> vhodné
+            zejména pro e‑shopy. E‑mailing založený na datech.
+          </p>
+        </div>
+        <div class="card__body">
+          <div class="card__container">
+            <p><strong class="card__money">200 Kč</strong> měsíčně</p>
+          </div>
+          <div class="card__container">
+            <p>
+              nebo 300 Kč při
+              <span class="card__underline">měsíční platbě</span>
+            </p>
+          </div>
+          <div class="card__container">
+            <a class="card__button">Vyzkoušejte zdarma</a>
+          </div>
+        </div>
+        <div class="card__footer">
+          <ul class="card__list">
+            <li class="card__item__first">Neomezené množství e‑mailů</li>
+            <li class="card__item__check">Drag&drop editor na tvorbu šablon</li>
+            <li class="card__item__check">170+ designových šablon</li>
+            <li class="card__item__check">
+              AI generování předmětu a úpravy textů
+            </li>
+            <li class="card__item__check">Integrace s e‑shopy</li>
+            <li class="card__item__cross">Slevové kupóny</li>
+            <li class="card__item__cross">
+              Automatizace podle chování zákazníka
+            </li>
+          </ul>
+        </div>
+      </figure>
     </main>
-</body>
-
+  </body>
 </html>
